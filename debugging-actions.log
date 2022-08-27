@@ -8,4 +8,7 @@ No errors were encountered.
 `sudo opt/local/bin/port upgrade outdated'
 4. Since the machine encountering the error is mutliuser, restarted macOS.
 5. Awaiting machine restart for further updates.
+6. Let machine cold stop and restarted (downtime of at least 15min)
+7. fish (login shell for user reporting problems) appeared to start cleanly
+8.
 
