@@ -1,0 +1,34 @@
+--->  Fetching archive for texinfo
+--->  Attempting to fetch texinfo-6.8_1.darwin_21.x86_64.tbz2 from https://packages.macports.org/texinfo
+--->  Attempting to fetch texinfo-6.8_1.darwin_21.x86_64.tbz2.rmd160 from https://packages.macports.org/texinfo
+--->  Installing texinfo @6.8_1
+--->  Activating texinfo @6.8_1
+--->  Cleaning texinfo
+--->  Fetching archive for emacs
+--->  Attempting to fetch emacs-28.1_1+gtk+motif+nativecomp+x11+xwidgets.darwin_21.x86_64.tbz2 from https://packages.macports.org/emacs
+--->  Attempting to fetch emacs-28.1_1+gtk+motif+nativecomp+x11+xwidgets.darwin_21.x86_64.tbz2 from https://ywg.ca.packages.macports.org/mirror/macports/packages/emacs
+--->  Attempting to fetch emacs-28.1_1+gtk+motif+nativecomp+x11+xwidgets.darwin_21.x86_64.tbz2 from https://mse.uk.packages.macports.org/emacs
+--->  Fetching distfiles for emacs
+--->  Attempting to fetch emacs-28.1.tar.gz from https://distfiles.macports.org/emacs
+--->  Verifying checksums for emacs                                             
+--->  Extracting emacs
+--->  Applying patches to emacs
+--->  Configuring emacs
+Error: Failed to configure emacs: consult /opt/local/var/macports/build/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_editors_emacs/emacs/work/emacs-28.1/config.log
+Error: Failed to configure emacs: configure failure: command execution failed
+Error: See /opt/local/var/macports/logs/_opt_local_var_macports_sources_rsync.macports.org_macports_release_tarballs_ports_editors_emacs/emacs/main.log for details.
+Error: Follow https://guide.macports.org/#project.tickets if you believe there
+is a bug.
+Error: Processing of port emacs failed
+--->  Some of the ports you installed have notes:
+  dbus has the following notes:
+    Startup items (named 'dbus-system, dbus-session') have been generated that
+    will aid in starting dbus with launchd. They are disabled by default.
+    Execute the following command to start them, and to cause them to launch at
+    startup:
+    
+        sudo port load dbus
+peri@ged ~ [1]> sudo port load dbus
+Password:
+sudo: port: command not found
+
