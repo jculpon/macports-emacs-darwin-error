@@ -1,0 +1,11 @@
+1. Archived error log state here.
+2. Since this is a restore from backup, followed the traq guide for restorations from:
+https://www.macports.org/install.php
+using a fresh packaged installer.
+
+No errors were encountered.
+3. ran `sudo /opt/local/bin/port selfupdate' and
+`sudo opt/local/bin/port upgrade outdated'
+4. Since the machine encountering the error is mutliuser, restarted macOS.
+5. Awaiting machine restart for further updates.
+
